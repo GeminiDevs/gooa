@@ -13,7 +13,6 @@
     <link href="{% static 'css/styles.css' %}" rel="stylesheet">
 {#    <link href="{% static 'js/index.js' %}" rel="stylesheet">#}
 
-
 </head>
 
 <body>
@@ -70,12 +69,13 @@
             <p>To  provide  the  highest  quality  of  service  to  our  clients,  ensure  long-term  profitability, increase shareholder value, provide career opportunities, and continuously support the betterment of the community.</p>
         </div>
     </div>
-    <!--      <div class="slideshow-item">-->
-    <!--          <img src="images/purpose.jpg" alt="">-->
-    <!--          <div class="slideshow-item-text">-->
-    <!--              <h5>Purpose</h5>-->
-    <!--              <p>To be a leader in the logistics & general supplies by providing enhanced services, relationship and profitability</p>-->
-    <!--          </div>-->
+          <div class="slideshow-item">
+              <img src="{% static 'images/purpose.jpg' %}" alt="">
+              <div class="slideshow-item-text">
+                  <h5>Purpose</h5>
+                  <p>To be a leader in the logistics & general supplies by providing enhanced services, relationship and profitability</p>
+              </div>
+          </div>
 
     <div class="slideshow-item">
         <img src="{% static 'images/strategy.jpg' %}" alt="">
@@ -92,16 +92,22 @@
 
 
 <button id="back-to-top-btn">Top</button>
+    <div class="more">
 
 
 <br>
 <hr>
-    <div class="more">
-        <div class="cont">
-            <div class="row" id="transport">
-                <div class="col-2">
-                    <h3>Transport & Logistics</h3>
-                    <br>
+        <div class="container">
+            <div class = "desc" id="transport">
+
+{#                <img src="{% static 'images/overseas.jpg' %}" alt="transport" class="img-responsive floating-image left" >#}
+
+                <img src="{% static 'images/overseas.jpg' %}" alt="transport" style="max-width: 80%">
+            </div>
+            <br>
+                <h3 style="font-weight: bolder">Transport & Logistics</h3>
+                <br>
+
                     <p>Providing logistics and transportation services is
                         our core competency. Our main functional areas
                         are transportation, warehousing, and distribution.
@@ -124,49 +130,43 @@
                         clients' shipments. Precisely Tallient Logistics Ltd
                         offers: <ul> <li>Transportation</li> <li>Moving Services</li> <li>Processing of abnormal cargo permits</li> <li>Cargo tracking and escorting.</li></ul>
 
-                </div>
-                <div class="col-2">
-                    <img src="{% static 'images/overseas.jpg' %}">
-
-                </div>
-            </div>
         </div>
 
         <br>
         <hr>
 
-        <div class="cont">
-            <div class="row" id="ourservices">
-                <div class="col-2">
-                    <h3>Our Services</h3>
-                    <br>
-                    <p>We offer a range of value added
-                        services, such as: <ul> <li>free consulting to
-                    clients regarding a variety of customs
-                    processes and procedures and are
-                    guided by stringent value principles
-                    apply best practices in our daily
-                    operations </li>
-                    <li>We also offer <b>transportation and logistics services</b> through our trusted
-                        partners and that which makes us one
-                        stop service and your choice logistics
-                        solution provider. </li></ul>
+        <div class="container">
+            <div class = "desc" id="ourservices">
 
-                </div>
-                <div class="col-2">
-                    <img src="{% static 'images/services.jpg' %}">
-
-                </div>
+                <img src="{% static 'images/services.jpg' %}" style="max-width: 80%">
             </div>
+
+            <h3 style="font-weight: bolder">Our Services</h3>
+            <br>
+            <p>We offer a range of value added
+                services, such as: <ul> <li>free consulting to
+            clients regarding a variety of customs
+            processes and procedures and are
+            guided by stringent value principles
+            apply best practices in our daily
+            operations </li>
+            <li>We also offer <b>transportation and logistics services</b> through our trusted
+                partners and that which makes us one
+                stop service and your choice logistics
+                solution provider. </li></ul>
+
         </div>
 
         <br>
         <hr>
 
-        <div class="cont">
-            <div class="row" id="road">
-                <div class="col-2">
-                    <h3>Road, Sea and Air Freight</h3>
+
+        <div class="container">
+            <div class = "desc" id="road">
+
+                <img src="{% static 'images/road.jpg' %}" style="max-width: 80%">
+            </div>
+                    <h3 style="font-weight: bolder">Road, Sea and Air Freight</h3>
                     <br>
                     <p><strong>Reliable</strong> and <b>time-definite door-to-door</b>
                         road transport. Our multi-modal infra-
@@ -180,20 +180,16 @@
                         loads
                     </p>
 
-                </div>
-                <div class="col-2">
-                    <img src="{% static 'images/road.jpg' %}" >
-
-                </div>
-            </div>
         </div>
         <br>
         <hr>
 
-        <div class="cont">
-            <div class="row" id="customs">
-                <div class="col-2">
-                    <h3>Customs Clearance</h3>
+        <div class="container">
+            <div class = "desc" id="customs">
+
+                <img src="{% static 'images/logistics.jpg' %}" style="max-width: 80%">
+            </div>
+                    <h3 style="font-weight: bolder">Customs Clearance</h3>
                     <br>
                     <p>Our professional staff are skilled in customs law,
                         regulations and procedures for all countries in East
@@ -218,21 +214,17 @@
                     Revenue Authority through the Simba System </li> <li>Direct Computer Link to Kenya Ports Authority
                     through KWATOS </li></ul>
 
-                </div>
-                <div class="col-2">
-                    <img src="{% static 'images/customsbrokerage.jpg' %}" >
-
-                </div>
-            </div>
         </div>
 
         <br>
         <hr>
 
-        <div class="cont">
-            <div class="row" id="supplies">
-                <div class="col-2">
-                    <h3>GENERAL SUPPLIES: </h3>
+        <div class="container">
+            <div class = "desc" id="supplies">
+
+                <img src="{% static 'images/warehousing.jpg' %}" style="max-width: 80%">
+            </div>
+                    <h3 style="font-weight: bolder">GENERAL SUPPLIES: </h3>
                     <br>
                     <p>Our aim is to provide cost efficient procurement on a larger scale, straight from
                         the source & offer supply solutions in the most demanding environments where
@@ -243,33 +235,34 @@
                         focused areas are; Service & Support; Real Estate Consultants ; Construction &
                         Renovations Architect & Interior Designing; General order suppliers and Construction
                         Machinery among others</p>
-                    <h4>a.) Supply of building & construction material:</h4>
+            <br>
+
+                    <h4 style="font-weight: bolder">a.) Supply of building & construction material:</h4>
                     <p><ul><li>Sand, Bricks, Cement, Iron, CGI Sheets</li><li>Design and Fabrication of House Hold items (Steel Beds /Tables, Chairs Etc. </li><li>Heavy Machinery </li><li>Construction & Renovation of Buildings
                     / Roads </li><li>Water Heating & Cooling System </li></ul></p>
 
                 </div>
-                <div class="col-2">
-                    <img src="{% static 'images/construction.jpg' %}" >
 
-                </div>
-            </div>
 
             <br>
             <hr>
 
 
-            <div class="row" id="office">
-                <div class="col-2">
-                    <h4>b.) General Office Suppliers</h4>
+         <div class="container">
+            <div class = "desc" id="office">
+
+                <img src="{% static 'images/office.jpg' %}" style="max-width: 80%">
+            </div>
+                    <h4 style="font-weight: bolder">b.) General Office Suppliers</h4>
                     <br>
-                    <h4>Office Furniture</h4>
+                    <h4 style="font-weight: bold">Office Furniture</h4>
                     <p>We offer a wide range of
                         Office systems and chairs that are
                         flexible, dynamic and ergonomic. We
                         understand your needs & requirements
                         and provide solutions to fulfill them.</p>
                     <br>
-                    <h4>Stationery Sell and Supply</h4>
+                    <h4 style="font-weight: bold">Stationery Sell and Supply</h4>
                     <p>Stationery really covers a vast array of everyday
                         office items. We supply all major brands and cover
                         the whole spectrum of products including: <ul><li>Papers,
@@ -279,10 +272,10 @@
                     Archival Storage</li><li>Accounting,
                     Personnel Files, Binders, Indices,
                     Office Tapes & Adhesives</li><li>Continuous
-                    Stationery, Clips & Fasteners</li></ul></p>
+                    Stationery, Clips & Fasteners</li></ul>
                     <br>
-                    <p>
-                    <div>At Gooa World Freighters Limited, We also sell and support brands such as HP, Dell,
+
+                    At Gooa World Freighters Limited, We also sell and support brands such as HP, Dell,
                         Lenovo, Brother, Samsung, Liebert, APC, Watford Control Instruments and Microsoft, among
                         others.
                         Our product line encompasses: <ul><li><b>Computer
@@ -293,22 +286,17 @@
                             IT Equipment including Photocopies & MFP, Large
                             Printers & Scanners, CCTV Surveillance Systems, Air Conditioners,
                             Cameras, High Speed Scanners</li></ul>
-                    </div>
 
-                </div>
-                <div class="col-2">
-                    <img src="{% static 'images/office.jpg' %}" >
-
-                </div>
-            </div>
-        </div>
+         </div>
         <br>
         <hr>
 
-        <div class="cont">
-            <div class="row" id="printing">
-                <div class="col-2">
-                    <h3>Printing Services</h3>
+        <div class="container">
+            <div class = "desc" id="printing">
+
+                <img src="{% static 'images/printing.jpg' %}" style="max-width: 90%">
+            </div>
+                    <h3 style="font-weight: bolder">Printing Services</h3>
                     <br>
                     <p>This unit is involved in provision of expert computer-related services with efficiency.
                         This is an express service where binding is done ‘As-u- wait’. Off-press binding of
@@ -320,41 +308,34 @@
                     Delivery, Cash sales, Exercise books, Flyers, Posters, Brochures, Labels etc.</li><li>Color
                     separations and full color printing of all sizes.</li></ul></p>
                 </div>
-                <div class="col-2">
-                    <img src="{% static 'images/printing.jpg' %}" >
 
-                </div>
-            </div>
-        </div>
         <br>
         <hr>
 
-        <div class="cont">
-            <div class="row" id="advertising">
-                <div class="col-2">
-                    <h3>Advertising and Branding</h3>
+        <div class="container">
+            <div class = "desc" id="advertising">
+
+                <img src="{% static 'images/customsbrokerage.jpg' %}" style="max-width: 90%">
+            </div>
+                    <h3 style="font-weight: bolder">Advertising and Branding</h3>
                     <br>
                     <p>Gooa World Freighters Limited’s Marketing division has qualified staff members
                         with experience in branding and advertising, which includes: <ul><li>Graphic
                     design and printing of; Letterheads, Logo design, Business
                     cards, Occasion cards, Staff ID cards, Sign boards, Neon signs and Bill
                     boards of all sizes.</li><li>Plotter Branding</li><li>Wide format printing</li></ul></p>
-                </div>
-                <div class="col-2">
-                    <img src="{% static 'images/customsbrokerage.jpg' %}" >
 
-                </div>
             </div>
-        </div>
-
 
         <br>
         <hr>
 
-        <div class="cont">
-            <div class="row" id="corporate">
-                <div class="col-2">
-                    <h3>Corporate Advertising and Branding</h3>
+        <div class="container">
+            <div class = "desc" id="corporate">
+
+                <img src="{% static 'images/customsbrokerage.jpg' %}" style="max-width: 90%">
+            </div>
+                    <h3 style="font-weight: bolder">Corporate Advertising and Branding</h3>
                     <br>
                     <p>Gooa World Freighters Limited’s Marketing division has qualified staff members
                         with experience in branding and advertising, which includes: <ul><li>Graphic
@@ -362,20 +343,16 @@
                     Logo design, Business cards, Occasion cards, Staff ID
                     cards, Sign boards, Neon signs and Bill boards of all sizes.</li><li>Plotter Branding</li><li>Wide Format Printing</li></ul></p>
                 </div>
-                <div class="col-2">
-                    <img src={% static 'images/customsbrokerage.jpg' %}>
-
-                </div>
-            </div>
-        </div>
 
         <br>
         <hr>
 
-        <div class="cont">
-            <div class="row" id="agriculture">
-                <div class="col-2">
-                    <h3>Supply of Agricultural Products <small style="font-family: 'Sansita Swashed', cursive"><i>Your place to find all your supplies for your agricultural or produce business, Order TODAY!</i></small></h3>
+        <div class="container">
+            <div class = "desc" id="agriculture">
+
+                <img src="{% static 'images/agriculture.jpg' %}" style="max-width: 80%">
+            </div>
+                    <h3 style="font-weight: bolder">Supply of Agricultural Products <small><i>Your place to find all your supplies for your agricultural or produce business, Order TODAY!</i></small></h3>
                     <br>
                     <p>We deal in general supplies, distribution, wholesale and retail of all types of
                         Agricultural products including Vegetables, Fruits and dry cereals produce such as
@@ -388,14 +365,10 @@
                         Our good source procurement team has established: <ul><li>Strong reputation with manufacturing partners for handling product with integrity</li><li>The first source of liquidation for many manufacturers </li><li>Supplier relationships that include exclusive product lines, first refusal
                     rights and “take all” contracts </li><li>The ability to purchase and finance large lots of product for our customers </li></ul></p>
                 </div>
-                <div class="col-2">
-                    <img src="{% static 'images/agriculture.jpg' %}" style="height: available" width="1920">
 
-                </div>
-            </div>
-        </div>
         <br>
         <hr>
+    </div>
     </div>
 
 <footer class="py-5 bg-dark" style="height: 5px">
