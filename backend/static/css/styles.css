@@ -71,27 +71,18 @@ html {
     padding-top: 10px;
     float: left;
 }
-/*.description-container{*/
-/*    max-width: 100%;*/
-/*    display: block;*/
-/*    !*margin: 40px auto 20px;*!*/
-/*}*/
-/*.description-container .floating-image{*/
-/*    max-width: 400px;*/
-/*}*/
-/*.description-container .floating-image img{*/
-/*    max-width: 70%;*/
-/*    height: auto;*/
-/*}*/
 
-/*.description-container .floating-image.left{*/
-/*    float: left;*/
-/*    !*margin-right: 30px;*!*/
-/*    !*margin-bottom: 10px;*!*/
-/*    max-width: 70%;*/
-/*    height: auto;*/
-/*    display: block;*/
-/*}*/
+.desc h3 p ul li {
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    /*padding-top: 10px;*/
+    padding-left: 100px;
+    padding-right: 100px;
+    /*padding: 100px 150px;*/
+    float: left;
+
+}
 
 .cont h2 {
     font-size: 4em;
@@ -136,14 +127,14 @@ html {
     height: inherit;
     position: absolute;
     opacity: 0;
-    animation: cycleImages 51s infinite;
+    animation: cycleImages 102s infinite;
 }
 
 .slideshow-item img{
     width: 100%;
     height: 100%;
     object-fit: cover;
-    animation: zoom 51s infinite;
+    animation: zoom 102s infinite;
 }
 
 .slideshow-item:nth-child(1),
@@ -265,29 +256,6 @@ html {
 }
 
 
-/*.scrollTop{*/
-/*    position: fixed;*/
-/*    bottom: 50px;*/
-/*    right: 40px;*/
-/*    width: 60px;*/
-/*    height: 60px;*/
-/*    background: #fff;*/
-/*    border-radius: 50%;*/
-/*    background-size: 40px;*/
-/*    !*background-position: center;*!*/
-/*    !*background-repeat: no-repeat;*!*/
-/*    cursor: pointer;*/
-/*    z-index: 100000;*/
-/*    visibility: hidden;*/
-/*    opacity: 0;*/
-/*    transition: 0.5s;*/
-/*}*/
-/*.scrollTop.active{*/
-/*    bottom: 40px;*/
-/*    visibility: visible;*/
-/*    opacity: 1;*/
-/*}*/
-
 #back-to-top-btn {
     display: none;
     position: fixed;
@@ -386,11 +354,32 @@ html {
     }
 }
 
+
+.mapouter {
+    position:relative;
+    text-align:right;
+    width:100%;
+    height:600px;
+}
+
+.gmap_canvas {
+    overflow:hidden;
+    background:none!important;
+    width:100%;
+    height:600px;
+}
+
+
+
 @media screen and (max-width: 1000px) {
-    .contacts #map{
+    .contacts {
         max-width: 70%;
         padding: 5rem 1rem;
         display: block;
+    }
+    .mapouter .gmap_canvas {
+        max-width: 70%;
+        height: auto;
     }
     .contacts h2{
         font-size: 5rem;
@@ -402,13 +391,17 @@ html {
 }
 
 @media screen and (max-width: 767px) {
-    .contacts #map {
+    .contacts {
         max-width: 100%;
         padding: 2rem;
         top: initial;
         bottom: 0;
         transform: initial;
         display: block;
+    }
+    .mapouter .gmap_canvas {
+        max-width: 100%;
+        height: auto;
     }
         .contacts h2{
         font-size: 3rem;
@@ -680,3 +673,4 @@ span {
 .header .row{
     margin-top: 70px;
 }
+
