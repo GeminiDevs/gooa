@@ -68,37 +68,37 @@ html {
 
 }
 
-    @media screen and (max-width: 1000px) {
-        .desc{
-            margin-top: 10px;
-            padding-top: 10px;
-            float: left;
-            max-width: 70%;
-            height: auto;
-        }
-
-        .desc h3 p ul li {
-            margin-top: 10px;
-            margin-left: 10px;
-            margin-right: 10px;
-            padding-left: 10px;
-            padding-right: 10px;
-            padding-top: 10px;
-            float: left;
-        }
-
-        .desc img{
-            font-size: 4rem;
-            margin-top: 10px;
-            margin-left: 10px;
-            margin-right: 10px;
-            padding-left: 10px;
-            padding-right: 10px;
-            padding-top: 10px;
-            max-width: 70%;
-            height: auto;
-        }
+@media screen and (max-width: 1000px) {
+    .desc{
+        margin-top: 10px;
+        padding-top: 10px;
+        float: left;
+        max-width: 70%;
+        height: auto;
     }
+
+    .desc h3 p ul li {
+        margin-top: 10px;
+        margin-left: 10px;
+        margin-right: 10px;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 10px;
+        float: left;
+    }
+
+    .desc img{
+        font-size: 4rem;
+        margin-top: 10px;
+        margin-left: 10px;
+        margin-right: 10px;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 10px;
+        max-width: 70%;
+        height: auto;
+    }
+}
 
 @media screen and (max-width: 767px) {
     .desc{
@@ -147,7 +147,7 @@ html {
     line-height: 1.1em;
 }
 
-.cont p ul li address span{
+.cont p ul li address span a{
     font-size: 1.5em;
     /*color: black;*/
     margin-bottom: 40px;
@@ -178,7 +178,7 @@ html {
         line-height: 1.1em;
     }
 
-    .cont p ul li address span{
+    .cont p ul li address span a{
         font-size: 1.5em;
         /*color: black;*/
         margin-bottom: 10px;
@@ -209,7 +209,7 @@ html {
         line-height: 1.1em;
     }
 
-    .cont p ul li address span{
+    .cont p ul li address span a{
         font-size: 1.5em;
         /*color: black;*/
         margin-bottom: 10px;
@@ -413,15 +413,15 @@ html {
     animation-fill-mode: both;
     animation-name: btnEntrance;
 }
- /*zoomIn */
- @keyframes btnEntrance {
-  from {
-    opacity: 0;
-    transform: scale3d(0.3, 0.3, 0.3);
-  }
-  to {
-    opacity: 1;
-  }
+/*zoomIn */
+@keyframes btnEntrance {
+    from {
+        opacity: 0;
+        transform: scale3d(0.3, 0.3, 0.3);
+    }
+    to {
+        opacity: 1;
+    }
 }
 
 /* fadeInUp */
@@ -442,14 +442,14 @@ html {
     animation-name: btnExit;
 }
 /* zoomOut */
- @keyframes btnExit {
-  from {
-    opacity: 1;
-  }
-  to {
-    opacity: 0;
-    transform: scale3d(0.3, 0.3, 0.3);
-  }
+@keyframes btnExit {
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 0;
+        transform: scale3d(0.3, 0.3, 0.3);
+    }
 }
 
 /* fadeOutDown */
@@ -476,48 +476,6 @@ html {
     background:none!important;
     width:100%;
     height:600px;
-}
-
-
-
-@media screen and (max-width: 1000px) {
-    .contacts {
-        max-width: 70%;
-        padding: 5rem 1rem;
-        display: block;
-    }
-    .mapouter .gmap_canvas {
-        max-width: 70%;
-        height: auto;
-    }
-    .contacts h2{
-        font-size: 5rem;
-    }
-    .contacts p a span{
-        font-size: 3rem;
-    }
-}
-
-@media screen and (max-width: 767px) {
-    .contacts {
-        max-width: 100%;
-        padding: 2rem;
-        top: initial;
-        bottom: 0;
-        transform: initial;
-        display: block;
-    }
-    .mapouter .gmap_canvas {
-        max-width: 100%;
-        height: auto;
-    }
-    .contacts h2{
-        font-size: 3rem;
-    }
-    .contacts p a span{
-        font-size: 1.0rem;
-
-    }
 }
 
 
@@ -578,13 +536,111 @@ hr {
     background: linear-gradient(to left, cornflowerblue, white);
     width: auto;
     height: auto;
-    /*margin: 70px auto 0;*/
-    /*display: flex;*/
-    /*flex-direction: row;*/
-    /*flex-wrap: wrap;*/
     padding: 100px 150px;
 }
 
+@media screen and (max-width: 1000px) {
+    .contacts {
+        max-width: 70%;
+        padding-top: 10px;
+        padding-left: 5px;
+        padding-right: 5px;
+        margin-top: 5px;
+        margin-left: 5px;
+        margin-right: 5px;
+
+        display: block;
+    }
+     .cont h2 {
+        font-size: 4em;
+        font-weight: 300;
+        margin-bottom: 10px;
+        line-height: 1.1em;
+    }
+
+    .cont h4 h5 {
+        font-size: 3em;
+        font-weight: 200;
+        margin-bottom: 10px;
+        line-height: 1.1em;
+    }
+
+    .cont p ul li address span a{
+        font-size: 1.5em;
+        /*color: black;*/
+        margin-bottom: 10px;
+        line-height: 1.1em;
+    }
+
+    .cont{
+        width: auto;
+        height: auto;
+        opacity: 1;
+        padding: 10px 15px;
+    }
+    .mapouter .gmap_canvas {
+        max-width: 70%;
+        height: auto;
+    }
+    .contacts h2{
+        font-size: 5rem;
+    }
+    .contacts p a span{
+        font-size: 3rem;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .contacts {
+        max-width: 100%;
+        padding: 2rem;
+        top: initial;
+        bottom: 0;
+        transform: initial;
+        display: block;
+    }
+
+    .cont h2 {
+        font-size: 4em;
+        font-weight: 300;
+        margin-bottom: 10px;
+        line-height: 1.1em;
+    }
+
+    .cont h4 h5 {
+        font-size: 3em;
+        font-weight: 200;
+        margin-bottom: 10px;
+        line-height: 1.1em;
+    }
+
+    .cont p ul li address span a{
+        font-size: 1.5em;
+        /*color: black;*/
+        margin-bottom: 10px;
+        line-height: 1.1em;
+    }
+
+    .cont{
+        width: auto;
+        height: auto;
+        opacity: 1;
+        padding: 10px 15px;
+
+    }
+
+    .mapouter .gmap_canvas {
+        max-width: 100%;
+        height: auto;
+    }
+    .contacts h2{
+        font-size: 3rem;
+    }
+    .contacts p a span{
+        font-size: 1.0rem;
+
+    }
+}
 
 .categories{
     width: 1280px;
