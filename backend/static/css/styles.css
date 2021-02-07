@@ -41,29 +41,29 @@ html {
     -webkit-text-size-adjust: 100%;
     -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
     scroll-behavior: smooth;
-    font-size: 16px;
+    font-size: 20px;
 }
 
 .container{
     /*width: auto;*/
     height: auto;
     opacity: 1;
-    padding: 10px 15px;
+    padding: 10% 15%;
 
 }
 .desc{
-    margin-top: 10px;
-    padding-top: 10px;
+    margin-top: 10%;
+    padding-top: 10%;
     float: left;
 }
 
 .desc h3 p ul li {
-    margin-top: 10px;
-    margin-left: 20px;
-    margin-right: 20px;
+    margin-top: 10%;
+    margin-left: 20%;
+    margin-right: 20%;
     /*padding-top: 10px;*/
-    padding-left: 100px;
-    padding-right: 100px;
+    padding-left: 10%x;
+    padding-right: 10%;
     /*padding: 100px 150px;*/
     float: left;
 
@@ -71,31 +71,31 @@ html {
 
 @media screen and (max-width: 1000px) {
     .desc{
-        margin-top: 0.625em;
-        padding-top: 0.625em;
+        margin-top: 0.6em;
+        padding-top: 0.6em;
         float: left;
         max-width: 70%;
         height: auto;
     }
 
     .desc h3 p ul li {
-        margin-top: 0.625em;
-        margin-left: 0.625em;
-        margin-right: 0.625em;
-        padding-left: 0.625em;
-        padding-right: 0.625em;
-        padding-top: 0.625em;
+        margin-top: 0.6em;
+        margin-left: 0.6em;
+        margin-right: 0.6em;
+        padding-left: 0.6em;
+        padding-right: 0.6em;
+        padding-top: 0.6em;
         float: left;
     }
 
     .desc img{
-        font-size: 4rem;
-        margin-top: 0.625em;
-        margin-left: 0.625em;
-        margin-right: 0.625em;
-        padding-left: 0.625em;
-        padding-right: 0.625em;
-        padding-top: 0.625em;
+        font-size: 2em;
+        margin-top: 0.6em;
+        margin-left: 0.6em;
+        margin-right: 0.6em;
+        padding-left: 0.6em;
+        padding-right: 0.6em;
+        padding-top: 0.6em;
         max-width: 70%;
         height: auto;
     }
@@ -103,8 +103,8 @@ html {
 
 @media screen and (max-width: 767px) {
     .desc{
-        margin-top: 2rem;
-        padding-top: 2rem;
+        margin-top: 0.5em;
+        padding-top: 0.5em;
         float: left;
         max-width: 100%;
         height: auto;
@@ -121,7 +121,7 @@ html {
     }
 
     .desc img{
-        font-size: 2rem;
+        font-size: 2em;
         margin-top: 0.3125em;
         margin-left: 0.3125em;
         margin-right: 0.3125em;
@@ -134,17 +134,17 @@ html {
 }
 
 .cont h2 {
-    font-size: 4em;
+    font-size: 2em;
     font-weight: 500;
-    margin-bottom: 40px;
+    margin-bottom: 15%;
     line-height: 1.1em;
 }
 
 .cont h4 h5 {
-    font-size: 4em;
+    font-size: 2em;
     font-weight: 200;
     /*color: black;*/
-    margin-bottom: 2.5em;
+    margin-bottom: 0.5em;
     line-height: 1.1em;
 }
 
@@ -159,7 +159,7 @@ html {
     width: auto;
     height: auto;
     opacity: 1;
-    padding: 6.25em 9.375em;
+    padding: 5em 8em;
 
 }
 
@@ -190,7 +190,7 @@ html {
         width: auto;
         height: auto;
         opacity: 1;
-        padding: 0.625em 15px;
+        padding: 5em 8em;
 
     }
 }
