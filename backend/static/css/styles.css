@@ -48,22 +48,22 @@ html {
     /*width: auto;*/
     height: auto;
     opacity: 1;
-    padding: 10% 15%;
+    padding: 10rem 15rem;
 
 }
 .desc{
-    margin-top: 10%;
-    padding-top: 10%;
+    margin-top: 10rem;
+    padding-top: 10rem;
     float: left;
 }
 
 .desc h3 p ul li {
-    margin-top: 10%;
-    margin-left: 20%;
-    margin-right: 20%;
+    margin-top: 10rem;
+    margin-left: 20rem;
+    margin-right: 20rem;
     /*padding-top: 10px;*/
-    padding-left: 10%x;
-    padding-right: 10%;
+    padding-left: 10rem;
+    padding-right: 10rem;
     /*padding: 100px 150px;*/
     float: left;
 
@@ -71,31 +71,31 @@ html {
 
 @media screen and (max-width: 1000px) {
     .desc{
-        margin-top: 0.6em;
-        padding-top: 0.6em;
+        margin-top: 10rem;
+        padding-top: 10rem;
         float: left;
         max-width: 70%;
         height: auto;
     }
 
     .desc h3 p ul li {
-        margin-top: 0.6em;
-        margin-left: 0.6em;
-        margin-right: 0.6em;
-        padding-left: 0.6em;
-        padding-right: 0.6em;
-        padding-top: 0.6em;
+        margin-top: 5rem;
+        margin-left: 5rem;
+        margin-right: 5rem;
+        padding-left: 10rem;
+        padding-right: 10rem;
+        padding-top: 10rem;
         float: left;
     }
 
     .desc img{
-        font-size: 2em;
-        margin-top: 0.6em;
-        margin-left: 0.6em;
-        margin-right: 0.6em;
-        padding-left: 0.6em;
-        padding-right: 0.6em;
-        padding-top: 0.6em;
+        font-size: 2rem;
+        margin-top: 5rem;
+        margin-left: 5rem;
+        margin-right: 10rem;
+        padding-left: 10rem;
+        padding-right: 10rem;
+        padding-top: 10rem;
         max-width: 70%;
         height: auto;
     }
@@ -103,45 +103,45 @@ html {
 
 @media screen and (max-width: 767px) {
     .desc{
-        margin-top: 0.5em;
-        padding-top: 0.5em;
+        margin-top: 10rem;
+        padding-top: 10rem;
         float: left;
         max-width: 100%;
         height: auto;
     }
 
     .desc h3 p ul li {
-        margin-top: 0.3125em;
-        margin-left: 0.3125em;
-        margin-right: 0.3125em;
-        padding-left: 0.3125em;
-        padding-right: 0.3125em;
-        padding-top: 0.3125em;
+        margin-top: 10rem;
+        margin-left: 10rem;
+        margin-right: 10rem;
+        padding-left: 10rem;
+        padding-right: 10rem;
+        padding-top: 10rem;
         float: left;
     }
 
     .desc img{
-        font-size: 2em;
-        margin-top: 0.3125em;
-        margin-left: 0.3125em;
-        margin-right: 0.3125em;
-        padding-left: 0.3125em;
-        padding-right: 0.3125em;
-        padding-top: 0.3125em;
+        font-size: 2rem;
+        margin-top: 10rem;
+        margin-left: 10rem;
+        margin-right: 10rem;
+        padding-left: 10rem;
+        padding-right: 10rem;
+        padding-top: 10rem;
         max-width: 100%;
         height: auto;
     }
 }
 
 .cont h2 {
-    font-size: 2em;
+    font-size: 2rem;
     font-weight: 500;
     margin-bottom: 15%;
     line-height: 1.1em;
 }
 
 .cont h4 h5 {
-    font-size: 2em;
+    font-size: 2rem;
     font-weight: 200;
     /*color: black;*/
     margin-bottom: 0.5em;
@@ -149,7 +149,7 @@ html {
 }
 
 .cont p ul li address span a{
-    font-size: 1.5em;
+    font-size: 1.5rem;
     /*color: black;*/
     margin-bottom: 2.5em;
     line-height: 1.1em;
@@ -159,30 +159,30 @@ html {
     width: auto;
     height: auto;
     opacity: 1;
-    padding: 5em 8em;
+    padding: 10rem 15rem;
 
 }
 
 
 @media screen and (max-width: 1000px) {
     .cont h2 {
-        font-size: 4em;
+        font-size: 4rem;
         font-weight: 300;
-        margin-bottom: 0.625em;
+        margin-bottom: 10rem;
         line-height: 1.1em;
     }
 
     .cont h4 h5 {
-        font-size: 3em;
+        font-size: 3rem;
         font-weight: 200;
-        margin-bottom: 0.625em;
+        margin-bottom: 10rem;
         line-height: 1.1em;
     }
 
     .cont p ul li address span a{
-        font-size: 1.5em;
+        font-size: 1.5rem;
         /*color: black;*/
-        margin-bottom: 0.625em;
+        margin-bottom: 10rem;
         line-height: 1.1em;
     }
 
@@ -190,30 +190,30 @@ html {
         width: auto;
         height: auto;
         opacity: 1;
-        padding: 5em 8em;
+        padding: 10rem 15rem;
 
     }
 }
 
 @media screen and (max-width: 767px) {
     .cont h2 {
-        font-size: 4em;
+        font-size: 4rem;
         font-weight: 300;
-        margin-bottom: 0.625em;
+        margin-bottom: 10rem;
         line-height: 1.1em;
     }
 
     .cont h4 h5 {
-        font-size: 3em;
+        font-size: 3rem;
         font-weight: 200;
-        margin-bottom: 0.625em;
+        margin-bottom: 10rem;
         line-height: 1.1em;
     }
 
     .cont p ul li address span a{
-        font-size: 1.5em;
+        font-size: 1.5rem;
         /*color: black;*/
-        margin-bottom: 0.625em;
+        margin-bottom: 10rem;
         line-height: 1.1em;
     }
 
@@ -221,7 +221,7 @@ html {
         width: auto;
         height: auto;
         opacity: 1;
-        padding: 0.625em 0.9375em;
+        padding: 10rem 15rem;
 
     }
 
@@ -316,10 +316,11 @@ html {
     .slideshow-item-text{
         max-width: 70%;
         padding: 5rem 1rem;
+        font-size: 2rem;
     }
 
     .slideshow-item-text h5{
-        font-size: 4rem;
+        font-size: 2rem;
     }
 }
 
@@ -347,15 +348,15 @@ html {
 }
 .nav-link
 {
-    font-size: 16px;
+    font-size: 15rem;
     color: black !important;
     margin: 2px;
 }
 .img-responsive {
     height: auto;
     width: auto;
-    max-height: 72px;
-    max-width: 250px;
+    max-height: 15rem;
+    max-width: 20rem;
 }
 .navbar-nav
 {
@@ -366,6 +367,9 @@ html {
     padding-right: 0;
     outline: none;
     border: none;
+}
+.nav-link{
+    font-size: 5rem;
 }
 
 
@@ -512,9 +516,9 @@ hr {
 
 /* Style all font awesome icons */
 .fa {
-    padding: 20px;
+    padding: 10rem;
     font-size: 30px;
-    width: 50px;
+    width: 40rem;
     text-align: center;
     text-decoration: none;
     border-radius: 50%;
@@ -553,7 +557,7 @@ hr {
     background: linear-gradient(to left, cornflowerblue, white);
     width: auto;
     height: auto;
-    padding: 100px 150px;
+    padding: 10rem 15rem;
 }
 
 @media screen and (max-width: 1000px) {
@@ -561,39 +565,38 @@ hr {
         max-width: 70%;
         padding-top: 0;
         padding-left: 0;
-        padding-right:1em;
-        margin-top: 1em;
-        margin-left: 1em;
-        margin-right: 1em;
-
+        padding-right:2rem;
+        margin-top: 2rem;
+        margin-left: 2rem;
+        margin-right: 2rem;
         display: block;
     }
      .cont h2 {
         font-size: 4em;
         font-weight: 300;
-        margin-bottom:  0.625em;
+        margin-bottom: 10rem;
         line-height: 1.1em;
     }
 
     .cont h4 h5 {
         font-size: 3em;
         font-weight: 200;
-        margin-bottom:  0.625em;
-        line-height: 1.1em;
+        margin-bottom: 10rem;
+        line-height: 1.1rem;
     }
 
     .cont p ul li address span a{
         font-size: 1.5em;
         /*color: black;*/
-        margin-bottom:  0.625em;
-        line-height: 1.1em;
+        margin-bottom: 10rem;
+        line-height: 1.1rem;
     }
 
     .cont{
         width: auto;
         height: auto;
         opacity: 1;
-        padding:  0.625em 0.9375em;
+        padding:  10rem 15rem;
     }
     .map-responsive{
         overflow:hidden;
@@ -613,7 +616,7 @@ hr {
         font-size: 2rem;
     }
     .contacts p a span{
-        font-size: 1rem;
+        font-size: 0.5rem;
     }
 }
 
@@ -630,29 +633,29 @@ hr {
     .cont h2 {
         font-size: 4em;
         font-weight: 300;
-        margin-bottom: 0.625em;
+        margin-bottom: 10rem;
         line-height: 1.1em;
     }
 
     .cont h4 h5 {
         font-size: 3em;
         font-weight: 200;
-        margin-bottom: 0.625em;
+        margin-bottom: 10rem;
         line-height: 1.1em;
     }
 
     .cont p ul li address span a{
         font-size: 1.5em;
         /*color: black;*/
-        margin-bottom: 0.625em;
-        line-height: 1.1em;
+        margin-bottom: 10rem;
+        line-height: 1.1rem;
     }
 
     .cont{
         width: auto;
         height: auto;
         opacity: 1;
-        padding: 10px 0.9375em;
+        padding: 10rem 15rem;
 
     }
 
