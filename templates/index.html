@@ -58,7 +58,7 @@
 
     <div class="slideshow">
         <div class="slideshow-item">
-            <img src="{% static 'images/company.png' %}" alt="">
+            <img src="{% static 'images/gooaprof.jpeg' %}" alt="">
             <div class="slideshow-item-text">
                 <h5>GOOA World Freighters</h5>
                 <p>About us, GOOA  WORLD  FREIGHTERS  LIMITED  is  a  private  limited  company  registered  in Kenya  Under  the  Kenya  Company  Registration  Act.  Rooted  in  the  <b>Logistics  general supplies  industry,</b>  As  one  of  the  logistics  company  in  the  region.</p>
@@ -72,7 +72,7 @@
             </div>
         </div>
         <div class="slideshow-item">
-            <img src="{% static 'images/mission.jpg' %}" alt="">
+            <img src="{% static 'images/gooaprof.jpeg' %}" alt="">
             <div class="slideshow-item-text">
                 <h5>Our Mission</h5>
                 <p>To  provide  the  highest  quality  of  service  to  our  clients,  ensure  long-term  profitability, increase shareholder value, provide career opportunities, and continuously support the betterment of the community.</p>
@@ -102,8 +102,8 @@
             <div class="cont">
                 <h2 style="font-weight: bolder">What We Do? </h2>
                 <hr>
-                <p style="font-weight: bold">Gooa World Freighters Limited provides: <ul> <li>safe  and reliable   long   and   short   Haulage</li> <li>  Bulk   and   bagged   Warehousing</li> <li>Clearing   and Forwarding</li> <li> Bulk Cargo Handling</li> <li>Air Cargo Services etc..</li></ul> <p> for general and specialized cargo to a diverse industry segment like steel, cement, food and many more in the East African Region.
-                <p>With our industry expertise, innovative technology and a modern approach to the real world  of  logistics,  our  customers  are  assured  that  their  cargo  is  in  safe  hands.  In addition  to  the  logistics  footprint  ,  the  company  plans  to  expand  its  trade  by  focusing on various aspects including General Supplies, supply of building and construction materials among others.</p>
+                <p style="font-weight: bold">Gooa World Freighters Limited provides: <ul> <li>safe  and reliable   long   and   short   Haulage</li> <li>  Bulk   and   bagged   Warehousing</li> <li>Clearing   and Forwarding</li> <li> Bulk Cargo Handling</li> <li>Air Cargo Services</li></ul> <p> We are here to provide for transport and processing of your general and specialized cargo to a diverse industry segment like steel, cement, food and many more in the East African Region.
+                <p><b>With our industry expertise, innovative technology and a modern approach to the real world  of  logistics,  our  customers  are  assured  that  their  cargo  is  in  safe  hands.</b>  In addition  to  the  logistics  footprint  ,  the  company  plans  to  expand  its  trade  by  focusing on various aspects including General Supplies, supply of building and construction materials among others.</p>
 
                 <p></p>
 
@@ -158,18 +158,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-3">
-                            <div class="cat">
-                                <h5>General Office Suppliers</h5><br>
-                                <img src="{% static 'images/office.jpg' %}" alt="">
-                            </div>
-                            <div class="details">
-                                <p style="color: white">We offer a wide range of Office systems and chairs that are flexible, dynamic and ergonomic. <br>Stationery Sell and Supply</p>
-                                <div class="content">
-                                    <a href="{% url 'services' %}#office"><h2>Read more</h2></a>
-                                </div>
-                            </div>
-                        </div>
+
 
                         <div class="col-3">
                             <div class="cat">
@@ -236,6 +225,20 @@
                                 </div>
                             </div>
                         </div>
+
+                        <div class="col-3">
+                            <div class="cat">
+                                <h5>General Office Suppliers</h5><br>
+                                <img src="{% static 'images/office.jpg' %}" alt="">
+                            </div>
+                            <div class="details">
+                                <p style="color: white">We offer a wide range of Office systems and chairs that are flexible, dynamic and ergonomic. <br>Stationery Sell and Supply</p>
+                                <div class="content">
+                                    <a href="{% url 'services' %}#office"><h2>Read more</h2></a>
+                                </div>
+                            </div>
+                        </div>
+
                         <div class="col-3">
                             <div class="cat">
                                 <h5>Supply of Agricultural Products</h5><br>
@@ -273,17 +276,21 @@
                         <br>Nairobi, Kenya
                         <br>
                         <!--          Div element for map-->
-                        <div class="mapouter">
-                            <div class="gmap_canvas">
-                                <iframe width="100%" height="600" src="https://maps.google.com/maps?width=1006&amp;height=600&amp;hl=en&amp;q=Olive Business Centre Kitengela&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed">
-
-                                </iframe>
+{#                        <div class="mapouter">#}
+{#                            <div class="gmap_canvas">#}
+{#                                <iframe width="100%" height="600" src="https://maps.google.com/maps?width=1006&amp;height=600&amp;hl=en&amp;q=Olive Business Centre Kitengela&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed">#}
+{##}
+{#                                </iframe>#}
 {#                                <a href="https://embedgooglemap.xyz/">embed google map</a>#}
-                            </div>
-                        </div>
-                    </address>
+{#                            </div>#}
+{#                        </div>#}
 
-                    <address>
+                        <div class="map-responsive">
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.4707368092813!2d36.953097115336696!3d-1.48919353630262!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182f9fa5c60068c7%3A0xf5679f56c713e563!2sOlive%20Business%20Center%20Kitengela!5e0!3m2!1sen!2ske!4v1612686075086!5m2!1sen!2ske" width="900" height="600" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                        </div>
+
+
+
                         <p><strong>Phone:</strong> +254 723 801 544</p>
                         <br>
                         <p><strong>Email: </strong><a href="mailto:#">info@gooaworldfreighters.co.ke</a></p>
