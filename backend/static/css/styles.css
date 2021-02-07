@@ -71,31 +71,32 @@ html {
 
 @media screen and (max-width: 1000px) {
     .desc{
-        margin-top: 10rem;
-        padding-top: 10rem;
+        margin-top: 2rem;
+        /*padding-top: 2rem;*/
+        padding: 1rem 3rem 0 0;
         float: left;
         max-width: 70%;
         height: auto;
     }
 
     .desc h3 p ul li {
-        margin-top: 5rem;
-        margin-left: 5rem;
-        margin-right: 5rem;
-        padding-left: 10rem;
-        padding-right: 10rem;
-        padding-top: 10rem;
+        margin-top: 2rem;
+        margin-left: 2rem;
+        margin-right: 2rem;
+        padding-left: 2rem;
+        padding-right: 2rem;
+        padding-top: 2rem;
         float: left;
     }
 
     .desc img{
         font-size: 2rem;
-        margin-top: 5rem;
-        margin-left: 5rem;
-        margin-right: 10rem;
-        padding-left: 10rem;
-        padding-right: 10rem;
-        padding-top: 10rem;
+        margin-top: 2rem;
+        margin-left: 2rem;
+        margin-right: 2rem;
+        padding-left: 2rem;
+        padding-right: 2rem;
+        padding-top: 2rem;
         max-width: 70%;
         height: auto;
     }
@@ -103,31 +104,31 @@ html {
 
 @media screen and (max-width: 767px) {
     .desc{
-        margin-top: 10rem;
-        padding-top: 10rem;
+        margin-top: 2rem;
+        padding: 1rem 3rem 0 0;
         float: left;
         max-width: 100%;
         height: auto;
     }
 
     .desc h3 p ul li {
-        margin-top: 10rem;
-        margin-left: 10rem;
-        margin-right: 10rem;
-        padding-left: 10rem;
-        padding-right: 10rem;
-        padding-top: 10rem;
+        margin-top: 2rem;
+        margin-left: 2rem;
+        margin-right: 2rem;
+        padding-left: 2rem;
+        padding-right: 2rem;
+        padding-top: 2rem;
         float: left;
     }
 
     .desc img{
         font-size: 2rem;
-        margin-top: 10rem;
-        margin-left: 10rem;
-        margin-right: 10rem;
-        padding-left: 10rem;
-        padding-right: 10rem;
-        padding-top: 10rem;
+        margin-top: 2rem;
+        margin-left: 2rem;
+        margin-right: 2rem;
+        padding-left: 2rem;
+        padding-right: 2rem;
+        padding-top: 2rem;
         max-width: 100%;
         height: auto;
     }
@@ -144,7 +145,7 @@ html {
     font-size: 2rem;
     font-weight: 200;
     /*color: black;*/
-    margin-bottom: 0.5em;
+    margin-bottom: 2em;
     line-height: 1.1em;
 }
 
@@ -170,6 +171,7 @@ html {
         font-weight: 300;
         margin-bottom: 10rem;
         line-height: 1.1em;
+        padding: 0 0 0 0;
     }
 
     .cont h4 h5 {
@@ -177,6 +179,7 @@ html {
         font-weight: 200;
         margin-bottom: 10rem;
         line-height: 1.1em;
+        padding: 0 0 0 0;
     }
 
     .cont p ul li address span a{
@@ -190,8 +193,7 @@ html {
         width: auto;
         height: auto;
         opacity: 1;
-        padding: 10rem 15rem;
-
+        padding: 2rem 5rem 0 0;
     }
 }
 
@@ -201,6 +203,7 @@ html {
         font-weight: 300;
         margin-bottom: 10rem;
         line-height: 1.1em;
+        padding: 0 0 0 0;
     }
 
     .cont h4 h5 {
@@ -208,6 +211,7 @@ html {
         font-weight: 200;
         margin-bottom: 10rem;
         line-height: 1.1em;
+        padding: 0 0 0 0;
     }
 
     .cont p ul li address span a{
@@ -215,13 +219,14 @@ html {
         /*color: black;*/
         margin-bottom: 10rem;
         line-height: 1.1em;
+        padding: 0 0 0 0;
     }
 
     .cont{
         width: auto;
         height: auto;
         opacity: 1;
-        padding: 10rem 15rem;
+        padding: 1rem 3rem;
 
     }
 
@@ -565,30 +570,30 @@ hr {
         max-width: 70%;
         padding-top: 0;
         padding-left: 0;
-        padding-right:2rem;
-        margin-top: 2rem;
-        margin-left: 2rem;
-        margin-right: 2rem;
+        padding-right:0;
+        margin-top: 1rem;
+        margin-left: 1rem;
+        margin-right: 1rem;
         display: block;
     }
      .cont h2 {
-        font-size: 4em;
+        font-size: 3rem;
         font-weight: 300;
-        margin-bottom: 10rem;
+        margin-bottom: 1rem;
         line-height: 1.1em;
     }
 
     .cont h4 h5 {
-        font-size: 3em;
+        font-size: 2rem;
         font-weight: 200;
-        margin-bottom: 10rem;
+        margin-bottom: 1rem;
         line-height: 1.1rem;
     }
 
     .cont p ul li address span a{
         font-size: 1.5em;
         /*color: black;*/
-        margin-bottom: 10rem;
+        margin-bottom: 1rem;
         line-height: 1.1rem;
     }
 
@@ -596,13 +601,13 @@ hr {
         width: auto;
         height: auto;
         opacity: 1;
-        padding:  10rem 15rem;
+        padding:  2rem 5rem 0 0;
     }
     .map-responsive{
         overflow:hidden;
         padding-bottom:56.25%;
         position:relative;
-        height:0;
+        max-width: 100%;
     }
 
     .map-responsive iframe{
@@ -616,14 +621,14 @@ hr {
         font-size: 2rem;
     }
     .contacts p a span{
-        font-size: 0.5rem;
+        font-size: 1rem;
     }
 }
 
 @media screen and (max-width: 767px) {
     .contacts {
         max-width: 100%;
-        padding: 2rem;
+        padding: 1rem 2rem 0 0;
         top: initial;
         bottom: 0;
         transform: initial;
@@ -631,14 +636,14 @@ hr {
     }
 
     .cont h2 {
-        font-size: 4em;
+        font-size: 2rem;
         font-weight: 300;
-        margin-bottom: 10rem;
+        margin-bottom: 1rem;
         line-height: 1.1em;
     }
 
     .cont h4 h5 {
-        font-size: 3em;
+        font-size: 2rem;
         font-weight: 200;
         margin-bottom: 10rem;
         line-height: 1.1em;
@@ -655,7 +660,7 @@ hr {
         width: auto;
         height: auto;
         opacity: 1;
-        padding: 10rem 15rem;
+        padding: 2rem 5rem;
 
     }
 
@@ -663,7 +668,8 @@ hr {
         overflow:hidden;
         padding-bottom:70%;
         position:relative;
-        height:0;
+        /*height:0;*/
+        max-width: 100%;
     }
 
     .map-responsive iframe{
