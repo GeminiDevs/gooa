@@ -48,7 +48,7 @@ html {
     /*width: auto;*/
     height: auto;
     opacity: 1;
-    padding: 100px 150px;
+    padding: 10px 15px;
 
 }
 .desc{
@@ -477,7 +477,7 @@ html {
     top:0;
     height:100%;
     width:100%;
-    position:absolute;
+    /*position:absolute;*/
 }
 
 
@@ -559,12 +559,12 @@ hr {
 @media screen and (max-width: 1000px) {
     .contacts {
         max-width: 70%;
-        padding-top: 0.625em;
-        padding-left: 0.3125em;
-        padding-right:0.3125em;
-        margin-top: 0.3125em;
-        margin-left: 0.3125em;
-        margin-right: 0.3125em;
+        padding-top: 0;
+        padding-left: 0;
+        padding-right:1em;
+        margin-top: 1em;
+        margin-left: 1em;
+        margin-right: 1em;
 
         display: block;
     }
@@ -607,13 +607,13 @@ hr {
         top:0;
         height:100%;
         width:100%;
-        position:absolute;
+        /*position:absolute;*/
     }
     .contacts h2{
-        font-size: 5rem;
+        font-size: 2rem;
     }
     .contacts p a span{
-        font-size: 3rem;
+        font-size: 1rem;
     }
 }
 
@@ -658,7 +658,7 @@ hr {
 
     .map-responsive{
         overflow:hidden;
-        padding-bottom:56.25%;
+        padding-bottom:70%;
         position:relative;
         height:0;
     }
@@ -668,7 +668,7 @@ hr {
         top:0;
         height:100%;
         width:100%;
-        position:absolute;
+        /*position:absolute;*/
     }
     .contacts h2{
         font-size: 3rem;
