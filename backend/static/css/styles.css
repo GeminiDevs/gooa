@@ -75,6 +75,8 @@ html,body
     float: left;
     width: 100%;
     height: 100vh;
+    background: linear-gradient(to left, cornflowerblue, white);
+
 }
 
 .desc h3 p ul li {
@@ -221,6 +223,8 @@ html,body
     height: auto;
     opacity: 1;
     padding: 10rem 15rem;
+    background: linear-gradient(to left, cornflowerblue, white);
+
 
 }
 
@@ -665,18 +669,18 @@ hr {
 }
 
 
-.more{
-    background: linear-gradient(to left, cornflowerblue, white);
-    /*position: relative;*/
-}
+/*.more{*/
+/*    background: linear-gradient(to left, cornflowerblue, white);*/
+/*    !*position: relative;*!*/
+/*}*/
 /*#contactus{*/
 /*    background: linear-gradient(to left, gray, white);*/
 /*}*/
 
 .contacts {
     background: linear-gradient(to left, cornflowerblue, white);
-    width: auto;
-    height: auto;
+    width: inherit;
+    height: inherit;
     padding: 10rem 15rem;
 }
 
