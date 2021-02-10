@@ -134,6 +134,38 @@ html {
     }
 }
 
+@media screen and (max-width: 480px) {
+    .desc{
+        margin-top: 2rem;
+        padding: 1rem 1rem 0 0;
+        float: left;
+        max-width: 100%;
+        height: auto;
+    }
+
+    .desc h3 p ul li {
+        margin-top: 1rem;
+        margin-left: 1rem;
+        margin-right: 1rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        padding-top: 1rem;
+        float: left;
+    }
+
+    .desc img{
+        font-size: 2rem;
+        margin-top: 2rem;
+        margin-left: 1rem;
+        margin-right: 1rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        padding-top: 1rem;
+        max-width: 70%;
+        height: auto;
+    }
+}
+
 .cont h2 {
     font-size: 2rem;
     font-weight: 500;
@@ -199,6 +231,41 @@ html {
 }
 
 @media screen and (max-width: 767px) {
+    .cont h2 {
+        font-size: 4rem;
+        font-weight: 300;
+        margin-bottom: 10rem;
+        line-height: 1.1em;
+        padding: 0 0 0 0;
+    }
+
+    .cont h4 h5 {
+        font-size: 3rem;
+        font-weight: 200;
+        margin-bottom: 10rem;
+        line-height: 1.1em;
+        padding: 0 0 0 0;
+    }
+
+    .cont p ul li address span a{
+        font-size: 1.5rem;
+        /*color: black;*/
+        margin-bottom: 10rem;
+        line-height: 1.1em;
+        padding: 0 0 0 0;
+    }
+
+    .cont{
+        width: auto;
+        height: auto;
+        opacity: 1;
+        padding: 1rem 2rem;
+
+    }
+
+}
+
+@media screen and (max-width: 480px) {
     .cont h2 {
         font-size: 4rem;
         font-weight: 300;
@@ -346,6 +413,25 @@ html {
         font-size: 1.4rem;
     }
 }
+
+
+@media screen and (max-width: 480px) {
+    .slideshow-item-text{
+        max-width: 100%;
+        padding: 2rem;
+        top: initial;
+        bottom: 0;
+        transform: initial;
+    }
+
+    .slideshow-item-text h5{
+        font-size: 3rem;
+    }
+    .slideshow-item-text p{
+        font-size: 1.4rem;
+    }
+}
+
 
 .menu-bar
 {
@@ -627,6 +713,69 @@ hr {
 }
 
 @media screen and (max-width: 767px) {
+    .contacts {
+        max-width: 100%;
+        padding: 1rem 2rem 0 0;
+        top: initial;
+        bottom: 0;
+        transform: initial;
+        display: block;
+    }
+
+    .cont h2 {
+        font-size: 2rem;
+        font-weight: 300;
+        margin-bottom: 1rem;
+        line-height: 1.1em;
+    }
+
+    .cont h4 h5 {
+        font-size: 2rem;
+        font-weight: 200;
+        margin-bottom: 10rem;
+        line-height: 1.1em;
+    }
+
+    .cont p ul li address span a{
+        font-size: 1.5em;
+        /*color: black;*/
+        margin-bottom: 10rem;
+        line-height: 1.1rem;
+    }
+
+    .cont{
+        width: auto;
+        height: auto;
+        opacity: 1;
+        padding: 1rem 1rem;
+
+    }
+
+    .map-responsive{
+        overflow:hidden;
+        padding: 0 0 0 0;
+        position:relative;
+        /*height:0;*/
+        max-width: 100%;
+    }
+
+    .map-responsive iframe{
+        left:0;
+        top:0;
+        height:100%;
+        width:100%;
+        /*position:absolute;*/
+    }
+    .contacts h2{
+        font-size: 3rem;
+    }
+    .contacts p a span{
+        font-size: 1.0rem;
+    }
+}
+
+
+@media screen and (max-width: 480px) {
     .contacts {
         max-width: 100%;
         padding: 1rem 2rem 0 0;
