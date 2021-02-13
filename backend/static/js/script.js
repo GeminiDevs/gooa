@@ -1,15 +1,15 @@
 $(function(){
 
-    var imp = impress();
+	var imp = impress();
 
-    $('#arrowLeft').click(function(e){
-        imp.prev();
-        e.preventDefault();
-    });
+	$('#arrowLeft').click(function(e){
+		imp.prev();
+		e.preventDefault();
+	});
 
-    $('#arrowRight').click(function(e){
-        imp.next();
-        e.preventDefault();
-    });
+	$('#arrowRight').click(function(e){
+		imp.next();
+		e.preventDefault();
+	});
 
 });
